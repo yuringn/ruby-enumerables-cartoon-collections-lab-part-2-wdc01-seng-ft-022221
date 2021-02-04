@@ -14,7 +14,7 @@ end
 summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 
 def long_planeteer_calls(planeteer_calls)
-  p planeteer_calls.any? {|i| i > 4.to_s}
+  p planeteer_calls.any? {|i| i.length > 4
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
 end
